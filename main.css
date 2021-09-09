@@ -1,0 +1,209 @@
+@media screen and (min-width: 800px){
+    p{
+        
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    h2{
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 38px;
+        color: #222F33;
+        margin: 0;
+    }
+    h3{
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    blockquote{
+        margin: 0px;
+        padding: 0px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #646D70;
+    }
+    header{
+        padding-top: 48px;
+        padding-bottom: 202px;
+        background-image: url(LabWork1-V6/Logo/Bitmap.png) ;
+        background-repeat: no-repeat;
+    }
+    header nav{
+        margin-right: 60px;
+        float: right;
+    }
+    header ul{
+        margin:0 0 15px ;
+    }
+    header li{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 20px;
+        display: inline;
+    }
+    #headerLogo{
+
+        margin: 0 0 0 100px;
+    }
+    article{
+        width: 440px;
+        margin: 127px 0 0 116px;
+    }
+    header article h1 {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+
+    }
+    header article h2 { 
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 38px;
+
+        color: #FFFFFF;
+        margin: 0px;
+    }
+    .Kopen{
+        display: flex;
+    }
+    .materials{
+        margin: 56px 10px 0 110px;
+    }
+    .materials h2{
+        margin: 0 0 15px 0;
+    }
+    .materials blockquote{
+        width: 400px;
+    }
+
+    .materials button{
+        margin: 51px 0 74px 0;
+        border: 1px solid #646D70;
+        border-radius: 4px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        padding: 10px 14.5px 10px 13.5px;
+        color: #606B74;
+    }
+    .Innovative{
+        background-color: #222F33;
+        padding-top: 66px;
+    }
+    .Innovative h2{
+        margin: 0 0 0 100px;
+        color: #FFFFFF;
+    }
+    .Innovative ul{
+        display: flex;
+        text-decoration: none;
+        padding: 0;
+        padding: 11px 97px 80px 80px;
+
+    }
+    .Innovative li{
+        padding:0 20px;
+        list-style-type: none;
+        width: 380px;
+        text-align: left;
+    }
+    .Innovative p{
+        color: #FFFFFF;
+    }
+    .Nieuws {
+        padding-top: 90px;
+        display: flex;
+    }
+    .Nieuws p {
+        width: 170px;
+        height: 66px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+
+
+        color: #646D70;
+
+        mix-blend-mode: normal;
+        opacity: 0.7;
+    }
+    .Nieuws img {
+        margin: 0 56px 56px 70px;
+        width: 355px;
+        height: 362px;
+    }
+    .Nieuws ul{
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 0;
+    }
+    .Nieuws h3{
+        padding: 0px;
+        margin: 0px;
+    }
+    .Nieuws li{
+        list-style-type: none;
+        display: inline-block;
+        width: 50%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    footer{
+        background-color: #222F33;    
+    }
+    .footer{
+        height: 92px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer li{
+        list-style-type: none;
+    }
+    footer{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+    .info li{
+        display: inline;
+        margin-right: 30px;
+    }
+}
