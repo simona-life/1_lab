@@ -10,17 +10,19 @@
 
 <body>
     <header>
-        <div id="menu">
-            <nav>
-                <ul>
-                    <li>Modellen</li>
-                    <li>Kopen</li>
-                    <li>Huren</li>
-                    <li>Nieuws</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-            <img id="headerLogo" src="LabWork1-V6/Logo/Logo horizontal.png" alt="Logo">
+        <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+
+            <ul class="menubox">
+                <li><a class="menu-item" href="#">Modellen</a></li>
+                <li><a class="menu-item" href="#Kopen">Kopen</a></li>
+                <li><a class="menu-item" href="#Huren">Huren</a></li>
+                <li><a class="menu-item" href="#Nieuws">Nieuws</a></li>
+                <li><a class="menu-item" href="#Contacts">Contacts</a></li>
+            </ul>
         </div>
         <article>
             <h1>Sustainable tiny houses</h1>
@@ -28,7 +30,7 @@
         </article>
     </header>
     <main>
-        <div class="Kopen">
+        <div class="Kopen" id="Kopen">
             <article class="materials">
                 <h2>
                     Durable materials
@@ -49,7 +51,7 @@
             </article>
             <img src="LabWork1-V6/Logo/IMG.png">
         </div>
-        <div class="Innovative">
+        <div class="Innovative" id = "#Huren">
             <h2>Innovative</h2>
             <ul>
                 <li>
@@ -66,7 +68,7 @@
                 </li>
             </ul>
         </div>
-        <div class="Nieuws">
+        <div class="Nieuws" id = "Nieuws">
             <img src="LabWork1-V6/Logo/Mask.png">
             <ul>
                 <li>
@@ -98,7 +100,7 @@
         </div>
     </main>
     <footer>
-        <ul class="footer">
+        <ul class="footer" id="Contacts">
             <li><a>info@eco-cabins.com</a></li>
             <li><img src="LabWork1-V6/Logo/Logo horizontal.png" alt=""></li>
             <li>
