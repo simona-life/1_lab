@@ -1,0 +1,484 @@
+@media screen and (min-width: 1000px){
+    header{
+        background: url(LabWork1-V6/Logo/Bitmap.png) no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 500px;
+    }
+    header input{
+        display: none;
+    }
+    header nav{
+        margin-right: 60px;
+        float: right;
+    }
+    header ul{
+        text-align: center;
+        margin:0 0 15px ;
+    }
+    header li {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 20px;
+        display: inline;
+    }
+    header a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+    header a:hover{
+        background-color: #FFF;
+        color: #222F33;
+        border: 10px solid #FFFFFF;
+        border-radius: 5px;
+    }
+    #headerLogo {
+        width: 8vw;
+        margin: 0 0 0 100px;
+    }
+    header article{
+        text-align: center;
+        width: 70vw;
+        padding: 700px 0 50px 15%;
+    }
+    header article h1 {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 19px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+
+    }
+    header article h2 {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 38px;
+
+        color: #FFFFFF;
+        margin: 0px;
+    }
+    .Kopen{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    article.materials{
+        padding: 0px;
+    }
+    .materials{
+        margin: 56px 10px 0 110px;
+    }
+    .materials h2{
+        text-align: center;
+        margin: 0 0 15px 0;
+        font-size: 3rem;
+    }
+    .materials blockquote{
+        margin: 0px;
+        padding: 0px;
+        width: 30vw;
+        font-size: 2rem;
+
+    }
+
+    .materials button{
+        margin: 51px 0 74px 0;
+        border: 1px solid #646D70;
+        border-radius: 4px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: normal;
+        text-align: center;
+        padding: 10px 14.5px 10px 13.5px;
+        color: #606B74;
+        height: 5vh;
+        width: 8vw;
+    }
+    .Innovative{
+        background-color: #222F33;
+        padding-top: 66px;
+    }
+    .Innovative h2{
+        text-align: center;
+        margin: 0 0 0 100px;
+        color: #FFFFFF;
+        font-size: 3rem;
+    }
+    .Innovative ul{
+        display: flex;
+        text-decoration: none;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0;
+        padding: 11px 97px 80px 80px;
+
+    }
+    .Innovative li{
+        padding:0 20px;
+        list-style-type: none;
+        width: 600px;
+        text-align: left;
+        font-size: 3rem;
+    }
+    .Innovative p{
+        color: #FFFFFF;
+    }
+    .Nieuws {
+        padding-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Nieuws p {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 5rem;
+        width: 300px;
+        color: #222F33;
+        mix-blend-mode: normal;
+    }
+
+    .Nieuws img {
+        margin: 0px 150px 0px 70px;
+        height: 800px;
+        width: 800px;
+    }
+    .Nieuws ul{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Nieuws h3{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .Nieuws li{
+        list-style: none;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }
+    footer{
+        background-color: #222F33;
+    }
+    .footer{
+
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer li{
+        list-style-type: none;
+    }
+    footer{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 14px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+    .info li{
+        display: inline;
+        margin-right: 30px;
+    }
+    footer li img{
+        width: 8vw;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    p{
+
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    h2{
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 38px;
+        color: #222F33;
+        margin: 0;
+    }
+    h3{
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    blockquote{
+        margin: 0px;
+        padding: 0px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #646D70;
+    }
+    header{
+        padding-top: 48px;
+        padding-bottom: 202px;
+        background-image: url(LabWork1-V6/Logo/Bitmap.png) ;
+        background-repeat: no-repeat;
+    }
+    .menu-btn{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right:0;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu-btn > span,
+    .menu-btn > span::before,
+    .menu-btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+        transition-duration: .25s;
+    }
+    .menu-btn > span::before {
+        content: '';
+        top: -8px;
+    }
+    .menu-btn > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menubox{
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        transition-duration: .25s;
+    }
+
+    .menu-item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+    .menu-item:hover {
+        background-color: #CFD8DC;
+    }
+
+
+    #menu-toggle{
+        opacity: 0;
+    }
+
+    #menu-toggle:checked ~ .menu-btn > span{
+        transform: rotate(45deg);
+    }
+    #menu-toggle:checked ~ .menu-btn > span::before{
+        top: 0;
+        transform: rotate(0);
+    }
+    #menu-toggle:checked ~ .menu-btn > span::after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu-toggle:checked ~ .menubox{
+        visibility: visible;
+        left: 0;
+    }
+    #headerLogo{
+        margin: 0 0 0 100px;
+    }
+    article{
+        width: 440px;
+        margin: 127px 0 0 116px;
+    }
+    header article h1 {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+
+    }
+    header article h2 {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 38px;
+
+        color: #FFFFFF;
+        margin: 0px;
+    }
+    .Kopen{
+        display: flex;
+    }
+    .materials{
+        margin: 56px 10px 0 110px;
+    }
+    .materials h2{
+        margin: 0 0 15px 0;
+    }
+    .materials blockquote{
+        width: 400px;
+    }
+
+    .materials button{
+        margin: 51px 0 74px 0;
+        border: 1px solid #646D70;
+        border-radius: 4px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        padding: 10px 14.5px 10px 13.5px;
+        color: #606B74;
+    }
+    .Innovative{
+        background-color: #222F33;
+        padding-top: 66px;
+    }
+    .Innovative h2{
+        margin: 0 0 0 100px;
+        color: #FFFFFF;
+    }
+    .Innovative ul{
+        display: flex;
+        text-decoration: none;
+        padding: 0;
+        padding: 11px 97px 80px 80px;
+
+    }
+    .Innovative li{
+        padding:0 20px;
+        list-style-type: none;
+        width: 380px;
+        text-align: left;
+    }
+    .Innovative p{
+        color: #FFFFFF;
+    }
+    .Nieuws {
+        padding-top: 90px;
+        display: flex;
+    }
+    .Nieuws p {
+        width: 170px;
+        height: 66px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+
+
+        color: #646D70;
+
+        mix-blend-mode: normal;
+        opacity: 0.7;
+    }
+    .Nieuws img {
+        margin: 0 56px 56px 70px;
+        width: 355px;
+        height: 362px;
+    }
+    .Nieuws ul{
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 0;
+    }
+    .Nieuws h3{
+        padding: 0px;
+        margin: 0px;
+    }
+    .Nieuws li{
+        list-style-type: none;
+        display: inline-block;
+        width: 50%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    footer{
+        background-color: #222F33;
+    }
+    .footer{
+        height: 92px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footer li{
+        list-style-type: none;
+    }
+    footer{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+    .info li{
+        display: inline;
+        margin-right: 30px;
+    }
+}
